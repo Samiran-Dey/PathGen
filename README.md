@@ -4,7 +4,7 @@
 
 The repository contains the implementation of the following paper. \
 \
-Title - ** Generating crossmodal gene expression from cancer histopathology predicts multimodal decision utility ** \
+Title - **Generating crossmodal gene expression from cancer histopathology predicts multimodal decision utility** \
 Authors - Samiran Dey, Christopher R.S. Banerji, Chris Harbron, Partha Basuchowdhuri, Sanjoy K. Saha, Deepak Parashar, Ben D. MacArthur, and Tapabrata Chakraborti \
 DOI - 
 
