@@ -37,19 +37,19 @@ cd PathoGen
 ```
 
 ## Data processing
-The folder process data contains the notebooks to preprocess the data. The details of the notebooks are described below.
+The folder **Process_data** contains the notebooks to preprocess the data. The details of the notebooks are described below.
 1. Process WSI data - To download and obtain embeddings of WSI patches from manifests downloaded from the TCGA website.
 2. Process transcriptomic - To store the process transcriptomic data divided into subgroups.
 3. Process data - To combine the histopathology and transcriptomic data and store them as tensors to provide input to the models.
 
-The folder Data contains some further files required to process the data.
+The folder **Data** contains some further files required to process the data.
 1. signatures.csv - The details of the gene groups.
 2. org_minmax_scaler - The trained min-max scalers to normalise the transcriptomic data.
 
 
 
 ## Synthesizing transcriptomic data from histopathology images
-The folder PathoGen contains the code to synthesize transcriptomic features from whole slide images using our novel diffusion-based model PathoGen. 
+The folder **PathoGen** contains the code to synthesize transcriptomic features from whole slide images using our novel diffusion-based model PathoGen. 
 
 ### Training
 To train PathoGen execute the following.
@@ -69,7 +69,7 @@ python3 PathoGen/main.py --data_root_dir PROCESSED_DATA_PATH --results_dir RESUL
 
 
 ## Gradation and Survival Risk Estimation
-The folder MCAT_GR contains the code for gradation and survival risk estimation using synthesised transcriptomic data obtained using PathoGen.
+The folder **MCAT_GR** contains the code for gradation and survival risk estimation using synthesised transcriptomic data obtained using PathoGen.
 
 ### Training using real transcriptomic data
 To train the model using real transcriptomic data execute the following.
