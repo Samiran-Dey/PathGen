@@ -111,7 +111,16 @@ python3 MCAT_GR/main.py --data_root_dir PROCESSED_DATA_PATH --results_dir RESULT
 ```
 
 ```bash
- 
+ @misc{https://doi.org/10.48550/arxiv.2502.00568,
+  doi = {10.48550/ARXIV.2502.00568},
+  url = {https://arxiv.org/abs/2502.00568},
+  author = {Dey,  Samiran and Banerji,  Christopher R. S. and Basuchowdhuri,  Partha and Saha,  Sanjoy K. and Parashar,  Deepak and Chakraborti,  Tapabrata},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV),  Artificial Intelligence (cs.AI),  Machine Learning (cs.LG),  FOS: Computer and information sciences,  FOS: Computer and information sciences},
+  title = {Generating crossmodal gene expression from cancer histopathology improves multimodal AI predictions},
+  publisher = {arXiv},
+  year = {2025},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
 ```
 
 
