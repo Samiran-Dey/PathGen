@@ -107,7 +107,7 @@ python3 MCAT_GR/main.py --data_root_dir PROCESSED_DATA_PATH --results_dir RESULT
 
 # Citation
 ```bash
-
+Dey,  Samiran and Banerji,  Christopher R. S. and Basuchowdhuri,  Partha and Saha,  Sanjoy K. and Parashar,  Deepak and Chakraborti,  Tapabrata. Generating crossmodal gene expression from cancer histopathology improves multimodal AI predictions. arXiv. 2025.
 ```
 
 ```bash
