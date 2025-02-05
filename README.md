@@ -6,7 +6,7 @@ The repository contains the implementation of the following paper. \
 \
 Title - **Generating crossmodal gene expression from cancer histopathology predicts multimodal decision utility** \
 Authors - Samiran Dey, Christopher R.S. Banerji, Chris Harbron, Partha Basuchowdhuri, Sanjoy K. Saha, Deepak Parashar, Ben D. MacArthur, and Tapabrata Chakraborti \
-DOI - 
+DOI - 10.48550/arXiv.2502.00568
 
 ## Abstract
 Emerging research has highlighted that artificial intelligence based multimodal fusion of digital pathology and transcriptomic features can improve cancer diagnosis (grading/subtyping) and prognosis (survival risk) prediction. However, such direct fusion for joint decision is impractical in real clinical settings, where histopathology is still the gold standard for diagnosis and transcriptomic tests are rarely requested, at least in the public healthcare system. With our novel diffusion based crossmodal generative AI model PathoGen, we show that genomic expressions synthesized from digital histopathology provide a reliable indication of the usefulness of acquiring real transcriptomes for each individual patient with high certainty (through conformal coverage guarantee) and interpretability (through distributed attention maps). This has major health economic benefits as this essentially provides a way to introduce transcriptomic tests into public healthcare in a cost effective and personalised manner. PathoGen code is available through GitHub for open use by the research community.
