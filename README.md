@@ -1,5 +1,5 @@
 
-# PathoGen
+# PathGen
 ## Generating crossmodal gene expression from cancer histopathology predicts multimodal decision utility
 
 The repository contains the implementation of the following paper. \
@@ -9,7 +9,7 @@ Authors - Samiran Dey, Christopher R.S. Banerji, Chris Harbron, Partha Basuchowd
 DOI - https://doi.org/10.48550/arXiv.2502.00568
 
 ## Abstract
-Emerging research has highlighted that artificial intelligence based multimodal fusion of digital pathology and transcriptomic features can improve cancer diagnosis (grading/subtyping) and prognosis (survival risk) prediction. However, such direct fusion for joint decision is impractical in real clinical settings, where histopathology is still the gold standard for diagnosis and transcriptomic tests are rarely requested, at least in the public healthcare system. With our novel diffusion based crossmodal generative AI model PathoGen, we show that genomic expressions synthesized from digital histopathology provide a reliable indication of the usefulness of acquiring real transcriptomes for each individual patient with high certainty (through conformal coverage guarantee) and interpretability (through distributed attention maps). This has major health economic benefits as this essentially provides a way to introduce transcriptomic tests into public healthcare in a cost effective and personalised manner. PathoGen code is available through GitHub for open use by the research community.
+Emerging research has highlighted that artificial intelligence based multimodal fusion of digital pathology and transcriptomic features can improve cancer diagnosis (grading/subtyping) and prognosis (survival risk) prediction. However, such direct fusion for joint decision is impractical in real clinical settings, where histopathology is still the gold standard for diagnosis and transcriptomic tests are rarely requested, at least in the public healthcare system. With our novel diffusion based crossmodal generative AI model PathGen, we show that genomic expressions synthesized from digital histopathology provide a reliable indication of the usefulness of acquiring real transcriptomes for each individual patient with high certainty (through conformal coverage guarantee) and interpretability (through distributed attention maps). This has major health economic benefits as this essentially provides a way to introduce transcriptomic tests into public healthcare in a cost effective and personalised manner. PathGen code is available through GitHub for open use by the research community.
 \
 <img src="./images/Overview.png">  </img>
 
@@ -32,8 +32,8 @@ pip install -r requirements.txt
 ```
 And then clone the repository as follows. 
 ```bash
-git clone https://github.com/Samiran-Dey/PathoGen.git
-cd PathoGen
+git clone https://github.com/Samiran-Dey/PathGen.git
+cd PathGen
 ```
 
 ## Data processing
@@ -49,27 +49,27 @@ The folder **Data** contains some further files required to process the data.
 
 
 ## Synthesizing transcriptomic data from histopathology images
-The folder **PathoGen** contains the code to synthesize transcriptomic features from whole slide images using our novel diffusion-based model PathoGen. 
+The folder **PathGen** contains the code to synthesize transcriptomic features from whole slide images using our novel diffusion-based model PathGen. 
 
 ### Training
-To train PathoGen execute the following.
+To train PathGen execute the following.
 ```bash
-python3 PathoGen/main.py --data_root_dir PROCESSED_DATA_PATH --results_dir RESULT_DIRECTORY_PATH --max_epochs NUMBER_OF_EPOCHS
+python3 PathGen/main.py --data_root_dir PROCESSED_DATA_PATH --results_dir RESULT_DIRECTORY_PATH --max_epochs NUMBER_OF_EPOCHS
 ```
 To resume training from an intermediate epoch execute the following.
 ```bash
-python3 PathoGen/main.py --data_root_dir PROCESSED_DATA_PATH --results_dir RESULT_DIRECTORY_PATH --max_epochs NUMBER_OF_EPOCHS --weight_path PATH_OF_WEIGHT_TO_LOAD --start_epoch START_EPOCH_NUMBER
+python3 PathGen/main.py --data_root_dir PROCESSED_DATA_PATH --results_dir RESULT_DIRECTORY_PATH --max_epochs NUMBER_OF_EPOCHS --weight_path PATH_OF_WEIGHT_TO_LOAD --start_epoch START_EPOCH_NUMBER
 ```
 
 ### Inference
 To run inference execute the following.
 ```bash
-python3 PathoGen/main.py --data_root_dir PROCESSED_DATA_PATH --results_dir RESULT_DIRECTORY_PATH --weight_path PATH_OF_WEIGHT_TO_LOAD --op_mode test
+python3 PathGen/main.py --data_root_dir PROCESSED_DATA_PATH --results_dir RESULT_DIRECTORY_PATH --weight_path PATH_OF_WEIGHT_TO_LOAD --op_mode test
 ```
 
 
 ## Gradation and Survival Risk Estimation
-The folder **MCAT_GR** contains the code for gradation and survival risk estimation using synthesised transcriptomic data obtained using PathoGen.
+The folder **MCAT_GR** contains the code for gradation and survival risk estimation using synthesised transcriptomic data obtained using PathGen.
 
 ### Training using real transcriptomic data
 To train the model using real transcriptomic data execute the following.
