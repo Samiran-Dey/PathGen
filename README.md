@@ -49,7 +49,7 @@ The folder **Data** contains some further files required to process the data.
 
 
 ## Synthesizing transcriptomic data from histopathology images
-The folder **PathGen** contains the code to synthesize transcriptomic features from whole slide images using our novel diffusion-based model PathGen. 
+The folder **PathGen** contains the code to synthesize transcriptomic features from whole slide images using our novel diffusion-based model PathGen. The checkpoints for the trained models can be downloaded from [here](https://drive.google.com/drive/folders/1vGwPY9WA81F_tDke4mMjKHAjiPtwBdd3?usp=sharing). 
 
 ### Training
 To train PathGen execute the following.
@@ -69,7 +69,7 @@ python3 PathGen/main.py --data_root_dir PROCESSED_DATA_PATH --results_dir RESULT
 
 
 ## Gradation and Survival Risk Estimation
-The folder **MCAT_GR** contains the code for gradation and survival risk estimation using synthesised transcriptomic data obtained using PathGen.
+The folder **MCAT_GR** contains the code for gradation and survival risk estimation using synthesised transcriptomic data obtained using PathGen. The checkpoints for the trained models can be downloaded from [here](https://drive.google.com/drive/folders/1EQTALaJmpReP5n_86SSkUnVcuJdTtVQO?usp=sharing).
 
 ### Training using real transcriptomic data
 To train the model using real transcriptomic data execute the following.
