@@ -123,6 +123,9 @@ Dey,  Samiran and Banerji,  Christopher R. S. and Basuchowdhuri,  Partha and Sah
 }
 ```
 
+## Code DOI
+[![DOI](https://zenodo.org/badge/902787586.svg)](https://doi.org/10.5281/zenodo.17315072)
+
 ## License and Usage
 ⓒ Samiran Dey. The models and associated code are released under the CC-BY-NC-ND 4.0 license and may only be used for non-commercial, academic research purposes with proper attribution.
 
