@@ -123,5 +123,8 @@ Dey,  Samiran and Banerji,  Christopher R. S. and Basuchowdhuri,  Partha and Sah
 }
 ```
 
+# License and Usage
+ⓒ Samiran Dey. The models and associated code are released under the CC-BY-NC-ND 4.0 license and may only be used for non-commercial, academic research purposes with proper attribution.
+
 
 
