@@ -6,7 +6,7 @@ The repository contains the implementation of the following paper. \
 \
 Title - **Generating crossmodal gene expression from cancer histopathology predicts multimodal decision utility** \
 Authors - Samiran Dey, Christopher R.S. Banerji, Partha Basuchowdhuri, Sanjoy K. Saha, Deepak Parashar, and Tapabrata Chakraborti \
-DOI - https://doi.org/10.48550/arXiv.2502.00568
+DOI - [https://doi.org/10.48550/arXiv.2502.00568](https://doi.org/10.1038/s41467-025-66961-9)
 
 ## Abstract
 Emerging research has highlighted that artificial intelligence based multimodal fusion of digital pathology and transcriptomic features can improve cancer diagnosis (grading/subtyping) and prognosis (survival risk) prediction. However, such direct fusion for joint decision is impractical in real clinical settings, where histopathology is still the gold standard for diagnosis and transcriptomic tests are rarely requested, at least in the public healthcare system. With our novel diffusion based crossmodal generative AI model PathoGen, we show that genomic expressions synthesized from digital histopathology jointly predicts cancer grading and patient survival risk with high accuracy (state-of-the-art performance), certainty (through conformal coverage guarantee) and interpretability (through distributed attention maps). 
@@ -107,19 +107,19 @@ python3 MCAT_GR/main.py --data_root_dir PROCESSED_DATA_PATH --results_dir RESULT
 
 # Citation
 ```bash
-Dey,  Samiran and Banerji,  Christopher R. S. and Basuchowdhuri,  Partha and Saha,  Sanjoy K. and Parashar,  Deepak and Chakraborti,  Tapabrata. Generating crossmodal gene expression from cancer histopathology improves multimodal AI predictions. arXiv. 2025.
+Dey, S., Banerji, C.R.S., Basuchowdhuri, P. et al. Generating crossmodal gene expression from cancer histopathology improves multimodal AI predictions. Nat Commun (2025). https://doi.org/10.1038/s41467-025-66961-9
 ```
 
 ```bash
- @misc{https://doi.org/10.48550/arxiv.2502.00568,
-  doi = {10.48550/ARXIV.2502.00568},
-  url = {https://arxiv.org/abs/2502.00568},
-  author = {Dey,  Samiran and Banerji,  Christopher R. S. and Basuchowdhuri,  Partha and Saha,  Sanjoy K. and Parashar,  Deepak and Chakraborti,  Tapabrata},
-  keywords = {Computer Vision and Pattern Recognition (cs.CV),  Artificial Intelligence (cs.AI),  Machine Learning (cs.LG),  FOS: Computer and information sciences,  FOS: Computer and information sciences},
+@article{Dey2025,
   title = {Generating crossmodal gene expression from cancer histopathology improves multimodal AI predictions},
-  publisher = {arXiv},
-  year = {2025},
-  copyright = {Creative Commons Attribution 4.0 International}
+  ISSN = {2041-1723},
+  url = {http://dx.doi.org/10.1038/s41467-025-66961-9},
+  DOI = {10.1038/s41467-025-66961-9},
+  journal = {Nature Communications},
+  publisher = {Springer Science and Business Media LLC},
+  author = {Dey,  Samiran and Banerji,  Christopher R. S. and Basuchowdhuri,  Partha and Saha,  Sanjoy K. and Parashar,  Deepak and Chakraborti,  Tapabrata},
+  year = {2025}
 }
 ```
 
