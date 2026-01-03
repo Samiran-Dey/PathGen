@@ -6,7 +6,7 @@ The repository contains the implementation of the following paper. \
 \
 Title - **Generating crossmodal gene expression from cancer histopathology predicts multimodal decision utility** \
 Authors - Samiran Dey, Christopher R.S. Banerji, Partha Basuchowdhuri, Sanjoy K. Saha, Deepak Parashar, and Tapabrata Chakraborti \
-DOI - [https://doi.org/10.48550/arXiv.2502.00568](https://doi.org/10.1038/s41467-025-66961-9)
+DOI - [https://doi.org/10.1038/s41467-025-66961-9](https://doi.org/10.1038/s41467-025-66961-9)
 
 ## Abstract
 Emerging research has highlighted that artificial intelligence based multimodal fusion of digital pathology and transcriptomic features can improve cancer diagnosis (grading/subtyping) and prognosis (survival risk) prediction. However, such direct fusion for joint decision is impractical in real clinical settings, where histopathology is still the gold standard for diagnosis and transcriptomic tests are rarely requested, at least in the public healthcare system. With our novel diffusion based crossmodal generative AI model PathoGen, we show that genomic expressions synthesized from digital histopathology jointly predicts cancer grading and patient survival risk with high accuracy (state-of-the-art performance), certainty (through conformal coverage guarantee) and interpretability (through distributed attention maps). 
@@ -124,7 +124,7 @@ Dey, S., Banerji, C.R.S., Basuchowdhuri, P. et al. Generating crossmodal gene ex
 ```
 
 ## Code DOI
-[![DOI](https://zenodo.org/badge/902787586.svg)](https://doi.org/10.5281/zenodo.17315072)
+[[DOI](https://zenodo.org/badge/902787586.svg)](https://doi.org/10.5281/zenodo.17315072)
 
 ## License and Usage
 ⓒ Samiran Dey. The models and associated code are released under the CC-BY-NC-ND 4.0 license and may only be used for non-commercial, academic research purposes with proper attribution.
