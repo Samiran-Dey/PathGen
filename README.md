@@ -124,7 +124,7 @@ Dey, S., Banerji, C.R.S., Basuchowdhuri, P. et al. Generating crossmodal gene ex
 ```
 
 ## Code DOI
-[[DOI](https://zenodo.org/badge/902787586.svg)](https://doi.org/10.5281/zenodo.17315072)
+[https://doi.org/10.5281/zenodo.17315072](https://doi.org/10.5281/zenodo.17315072)
 
 ## License and Usage
 ⓒ Samiran Dey. The models and associated code are released under the CC-BY-NC-ND 4.0 license and may only be used for non-commercial, academic research purposes with proper attribution.
